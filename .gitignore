@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python virtualenv & bytecode
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node dependencies & dist build
+frontend/node_modules/
+frontend/dist/
+
+# OS / Logs
+*.log
+.DS_Store

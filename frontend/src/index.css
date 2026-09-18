@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Gemini Sparkle Gradient */
+  .gemini-gradient-text {
+    background: linear-gradient(135deg, #4285f4 0%, #9b72cb 50%, #d96570 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gemini-gradient-bg {
+    background: linear-gradient(135deg, #1b1b1f 0%, #282a2d 100%);
+  }
+
+  .gemini-btn-gradient {
+    background: linear-gradient(135deg, #4285f4 0%, #9b72cb 100%);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282a2c;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c4043;
+}
